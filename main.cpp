@@ -1,7 +1,7 @@
-#include "To_Binary.h"
-
 #include <iostream>
 #include <vector>
+
+#include "To_Binary.h"
 
 int main() {
     unsigned long long t; 
@@ -18,3 +18,4 @@ int main() {
     return 0;
 
 }
+
