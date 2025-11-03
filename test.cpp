@@ -1,7 +1,8 @@
-#include "To_Binary.h"
 #include <gtest/gtest.h>
 
 #include <vector>
+#include "To_Binary.h"
+
 
 TEST(ToBinaryTest, ZeroTest) {
     std::vector<int> expected = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
@@ -32,3 +33,4 @@ TEST(ToBinaryTest, VectorSizeTest) {
     EXPECT_EQ(result.size(), 32);
 
 }
+
